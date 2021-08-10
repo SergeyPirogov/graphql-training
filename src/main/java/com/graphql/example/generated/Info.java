@@ -1,13 +1,14 @@
 package com.graphql.example.generated;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonRootName;
 
 @javax.annotation.processing.Generated(
     value = "com.kobylynskyi.graphql.codegen.GraphQLCodegen",
     date = "2021-07-08T16:26:34+0300"
 )
-@JsonIgnoreProperties
-public class Info implements java.io.Serializable {
+@JsonRootName("company")
+public class Info {
 
     private String ceo;
     private String coo;

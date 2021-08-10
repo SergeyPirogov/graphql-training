@@ -1,5 +1,7 @@
 package com.graphql.example.generated;
 
+import com.fasterxml.jackson.annotation.JsonRootName;
+
 /**
  * columns and relationships of "users"
  */

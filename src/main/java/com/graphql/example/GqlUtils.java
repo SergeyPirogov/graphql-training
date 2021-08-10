@@ -11,7 +11,7 @@ public class GqlUtils {
 
     public static GraphQLQuery readGql(String name) {
         try {
-            return gql(Resources.toString(getResource(name + ".gql"), Charset.defaultCharset()));
+            return gql(Resources.toString(getResource(name), Charset.defaultCharset()));
         } catch (IOException e) {
             throw new RuntimeException("Unable to read " + name);
         }
@@ -19,7 +19,7 @@ public class GqlUtils {
 
     public static GraphQLQuery readGql(String name, Object variables) {
         try {
-            return gql(Resources.toString(getResource(name + ".gql"), Charset.defaultCharset()), variables);
+            return gql(Resources.toString(getResource(name), Charset.defaultCharset()), variables);
         } catch (IOException e) {
             throw new RuntimeException("Unable to read " + name);
         }

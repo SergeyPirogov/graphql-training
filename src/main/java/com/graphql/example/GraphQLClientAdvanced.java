@@ -9,41 +9,30 @@ import io.restassured.specification.RequestSpecification;
 import static com.graphql.example.GqlUtils.readGql;
 import static io.restassured.RestAssured.given;
 
-
-public class GraphQLClient {
+public class GraphQLClientAdvanced {
 
     private final String url;
     private final RequestSpecification requestSpecification = given().
             contentType(ContentType.JSON)
             .filters(new ResponseLoggingFilter());
 
-    public GraphQLClient(String url) {
+    public GraphQLClientAdvanced(String url) {
         this.url = url;
     }
 
-    public Response execute(GraphQLQuery query) {
+    private Response runQuery(GraphQLQuery query) {
         return requestSpecification
                 .body(query)
                 .post(url);
     }
 
-    public Response execute(String query) {
-        return requestSpecification
-                .body(query)
-                .post(url);
-    }
-
-    public Response executeGql(String name) {
+    public GraphQLResponse executeGql(String name) {
         var query = readGql(name);
-        return requestSpecification
-                .body(query)
-                .post(url);
+        return new GraphQLResponse(runQuery(query));
     }
 
-    public Response executeGql(String name, Object variables) {
+    public GraphQLResponse executeGql(String name, Object variables) {
         var query = readGql(name, variables);
-        return requestSpecification
-                .body(query)
-                .post(url);
+        return new GraphQLResponse(runQuery(query));
     }
 }
