@@ -53,4 +53,15 @@ public class GraphQLClient {
                 .post(url);
     }
 
+    public Response executeGql(String name, Object variables) {
+        var query = readGql(name, variables);
+        return RestAssured
+                .given()
+                .contentType(ContentType.JSON)
+                .filters(new RequestLoggingFilter(), new ResponseLoggingFilter())
+                .body(query)
+                .when()
+                .post(url);
+    }
+
 }
