@@ -1,7 +1,0 @@
-com/graphql/example/tests/client/FirstGraphQLTestClient.java
- com.graphql.example.tests.client.FirstGraphQLTestClient
-com/graphql/example/GraphQLTest.java
- com.graphql.example.GraphQLTest
- com.graphql.example.GraphQLTest$1
-com/graphql/example/tests/simple/FirstGraphQLTest.java
- com.graphql.example.tests.simple.FirstGraphQLTest
