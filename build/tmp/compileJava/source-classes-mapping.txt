@@ -1,0 +1,365 @@
+com/graphql/example/generated/Users_max_order_by.java
+ com.graphql.example.generated.Users_max_order_by
+ com.graphql.example.generated.Users_max_order_by$Builder
+com/graphql/example/generated/Users_aggregate_fields.java
+ com.graphql.example.generated.Users_aggregate_fields
+ com.graphql.example.generated.Users_aggregate_fields$Builder
+com/graphql/example/generated/Users_aggregateSubscriptionResolver.java
+ com.graphql.example.generated.Users_aggregateSubscriptionResolver
+com/graphql/example/generated/Conflict_action.java
+ com.graphql.example.generated.Conflict_action
+com/graphql/example/generated/Users_order_by.java
+ com.graphql.example.generated.Users_order_by
+ com.graphql.example.generated.Users_order_by$Builder
+com/graphql/example/generated/HistoriesResultQueryResolver.java
+ com.graphql.example.generated.HistoriesResultQueryResolver
+com/graphql/example/generated/PayloadQueryResolver.java
+ com.graphql.example.generated.PayloadQueryResolver
+com/graphql/example/generated/Order_by.java
+ com.graphql.example.generated.Order_by
+com/graphql/example/generated/CoresPastQueryResolver.java
+ com.graphql.example.generated.CoresPastQueryResolver
+com/graphql/example/generated/PayloadOrbitParams.java
+ com.graphql.example.generated.PayloadOrbitParams
+ com.graphql.example.generated.PayloadOrbitParams$Builder
+com/graphql/example/generated/CapsulesUpcomingQueryResolver.java
+ com.graphql.example.generated.CapsulesUpcomingQueryResolver
+com/graphql/example/generated/CompanyQueryResolver.java
+ com.graphql.example.generated.CompanyQueryResolver
+com/graphql/example/Conditions.java
+ com.graphql.example.Conditions
+com/graphql/example/generated/DragonsQueryResolver.java
+ com.graphql.example.generated.DragonsQueryResolver
+com/graphql/example/generated/Payload.java
+ com.graphql.example.generated.Payload
+ com.graphql.example.generated.Payload$Builder
+com/graphql/example/generated/LaunchRocketFirstStageCore.java
+ com.graphql.example.generated.LaunchRocketFirstStageCore
+ com.graphql.example.generated.LaunchRocketFirstStageCore$Builder
+com/graphql/example/generated/CapsulesFind.java
+ com.graphql.example.generated.CapsulesFind
+ com.graphql.example.generated.CapsulesFind$Builder
+com/graphql/example/generated/Users_by_pkSubscriptionResolver.java
+ com.graphql.example.generated.Users_by_pkSubscriptionResolver
+com/graphql/example/generated/String_comparison_exp.java
+ com.graphql.example.generated.String_comparison_exp
+ com.graphql.example.generated.String_comparison_exp$Builder
+com/graphql/example/generated/Users_max_fields.java
+ com.graphql.example.generated.Users_max_fields
+ com.graphql.example.generated.Users_max_fields$Builder
+com/graphql/example/generated/Launchpad.java
+ com.graphql.example.generated.Launchpad
+ com.graphql.example.generated.Launchpad$Builder
+com/graphql/example/generated/Mass.java
+ com.graphql.example.generated.Mass
+ com.graphql.example.generated.Mass$Builder
+com/graphql/example/generated/Distance.java
+ com.graphql.example.generated.Distance
+ com.graphql.example.generated.Distance$Builder
+com/graphql/example/BodyCondition.java
+ com.graphql.example.BodyCondition
+com/graphql/example/generated/Users_bool_exp.java
+ com.graphql.example.generated.Users_bool_exp
+ com.graphql.example.generated.Users_bool_exp$Builder
+com/graphql/example/generated/MissionsFind.java
+ com.graphql.example.generated.MissionsFind
+ com.graphql.example.generated.MissionsFind$Builder
+com/graphql/example/generated/Volume.java
+ com.graphql.example.generated.Volume
+ com.graphql.example.generated.Volume$Builder
+com/graphql/example/generated/Insert_usersMutationResolver.java
+ com.graphql.example.generated.Insert_usersMutationResolver
+com/graphql/example/generated/Result.java
+ com.graphql.example.generated.Result
+ com.graphql.example.generated.Result$Builder
+com/graphql/example/generated/Launch.java
+ com.graphql.example.generated.Launch
+ com.graphql.example.generated.Launch$Builder
+com/graphql/example/generated/Users_aggregate_fieldsResolver.java
+ com.graphql.example.generated.Users_aggregate_fieldsResolver
+com/graphql/example/generated/ShipsFind.java
+ com.graphql.example.generated.ShipsFind
+ com.graphql.example.generated.ShipsFind$Builder
+com/graphql/example/generated/LaunchRocket.java
+ com.graphql.example.generated.LaunchRocket
+ com.graphql.example.generated.LaunchRocket$Builder
+com/graphql/example/generated/LaunchTelemetry.java
+ com.graphql.example.generated.LaunchTelemetry
+ com.graphql.example.generated.LaunchTelemetry$Builder
+com/graphql/example/generated/MissionsResultQueryResolver.java
+ com.graphql.example.generated.MissionsResultQueryResolver
+com/graphql/example/generated/HistoryQueryResolver.java
+ com.graphql.example.generated.HistoryQueryResolver
+com/graphql/example/generated/RocketFirstStage.java
+ com.graphql.example.generated.RocketFirstStage
+ com.graphql.example.generated.RocketFirstStage$Builder
+com/graphql/example/generated/LaunchRocketFirstStage.java
+ com.graphql.example.generated.LaunchRocketFirstStage
+ com.graphql.example.generated.LaunchRocketFirstStage$Builder
+com/graphql/example/generated/DragonTrunk.java
+ com.graphql.example.generated.DragonTrunk
+ com.graphql.example.generated.DragonTrunk$Builder
+com/graphql/example/generated/Roadster.java
+ com.graphql.example.generated.Roadster
+ com.graphql.example.generated.Roadster$Builder
+com/graphql/example/generated/LaunchLinks.java
+ com.graphql.example.generated.LaunchLinks
+ com.graphql.example.generated.LaunchLinks$Builder
+com/graphql/example/generated/ShipMission.java
+ com.graphql.example.generated.ShipMission
+ com.graphql.example.generated.ShipMission$Builder
+com/graphql/example/generated/Users_by_pkQueryResolver.java
+ com.graphql.example.generated.Users_by_pkQueryResolver
+com/graphql/example/generated/Update_usersMutationResolver.java
+ com.graphql.example.generated.Update_usersMutationResolver
+com/graphql/example/pojo/Company.java
+ com.graphql.example.pojo.Company
+com/graphql/example/generated/RocketSecondStagePayloadCompositeFairing.java
+ com.graphql.example.generated.RocketSecondStagePayloadCompositeFairing
+ com.graphql.example.generated.RocketSecondStagePayloadCompositeFairing$Builder
+com/graphql/example/generated/InfoLinks.java
+ com.graphql.example.generated.InfoLinks
+ com.graphql.example.generated.InfoLinks$Builder
+com/graphql/example/generated/LaunchpadQueryResolver.java
+ com.graphql.example.generated.LaunchpadQueryResolver
+com/graphql/example/generated/Users_on_conflict.java
+ com.graphql.example.generated.Users_on_conflict
+ com.graphql.example.generated.Users_on_conflict$Builder
+com/graphql/example/generated/Dragon.java
+ com.graphql.example.generated.Dragon
+ com.graphql.example.generated.Dragon$Builder
+com/graphql/example/generated/LaunchQueryResolver.java
+ com.graphql.example.generated.LaunchQueryResolver
+com/graphql/example/generated/LaunchLatestQueryResolver.java
+ com.graphql.example.generated.LaunchLatestQueryResolver
+com/graphql/example/generated/CapsuleMission.java
+ com.graphql.example.generated.CapsuleMission
+ com.graphql.example.generated.CapsuleMission$Builder
+com/graphql/example/generated/Users_mutation_response.java
+ com.graphql.example.generated.Users_mutation_response
+ com.graphql.example.generated.Users_mutation_response$Builder
+com/graphql/example/generated/CapsulesQueryResolver.java
+ com.graphql.example.generated.CapsulesQueryResolver
+com/graphql/example/generated/CoresQueryResolver.java
+ com.graphql.example.generated.CoresQueryResolver
+com/graphql/example/generated/MutationResolver.java
+ com.graphql.example.generated.MutationResolver
+com/graphql/example/generated/Users_select_column.java
+ com.graphql.example.generated.Users_select_column
+com/graphql/example/AssertableResponse.java
+ com.graphql.example.AssertableResponse
+com/graphql/example/generated/Uuid_comparison_exp.java
+ com.graphql.example.generated.Uuid_comparison_exp
+ com.graphql.example.generated.Uuid_comparison_exp$Builder
+com/graphql/example/generated/LaunchesUpcomingQueryResolver.java
+ com.graphql.example.generated.LaunchesUpcomingQueryResolver
+com/graphql/example/generated/Rocket.java
+ com.graphql.example.generated.Rocket
+ com.graphql.example.generated.Rocket$Builder
+com/graphql/example/generated/Users_obj_rel_insert_input.java
+ com.graphql.example.generated.Users_obj_rel_insert_input
+ com.graphql.example.generated.Users_obj_rel_insert_input$Builder
+com/graphql/example/generated/LaunchSite.java
+ com.graphql.example.generated.LaunchSite
+ com.graphql.example.generated.LaunchSite$Builder
+com/graphql/example/generated/ShipQueryResolver.java
+ com.graphql.example.generated.ShipQueryResolver
+com/graphql/example/generated/Users_arr_rel_insert_input.java
+ com.graphql.example.generated.Users_arr_rel_insert_input
+ com.graphql.example.generated.Users_arr_rel_insert_input$Builder
+com/graphql/example/generated/Timestamptz_comparison_exp.java
+ com.graphql.example.generated.Timestamptz_comparison_exp
+ com.graphql.example.generated.Timestamptz_comparison_exp$Builder
+com/graphql/example/generated/Force.java
+ com.graphql.example.generated.Force
+ com.graphql.example.generated.Force$Builder
+com/graphql/example/generated/Mission.java
+ com.graphql.example.generated.Mission
+ com.graphql.example.generated.Mission$Builder
+com/graphql/example/generated/Users_aggregateQueryResolver.java
+ com.graphql.example.generated.Users_aggregateQueryResolver
+com/graphql/example/pojo/Data.java
+ com.graphql.example.pojo.Data
+com/graphql/example/generated/HistoryFind.java
+ com.graphql.example.generated.HistoryFind
+ com.graphql.example.generated.HistoryFind$Builder
+com/graphql/example/generated/DragonPressurizedCapsule.java
+ com.graphql.example.generated.DragonPressurizedCapsule
+ com.graphql.example.generated.DragonPressurizedCapsule$Builder
+com/graphql/example/generated/RocketLandingLegs.java
+ com.graphql.example.generated.RocketLandingLegs
+ com.graphql.example.generated.RocketLandingLegs$Builder
+com/graphql/example/generated/LaunchesPastResult.java
+ com.graphql.example.generated.LaunchesPastResult
+ com.graphql.example.generated.LaunchesPastResult$Builder
+com/graphql/example/generated/Users_constraint.java
+ com.graphql.example.generated.Users_constraint
+com/graphql/example/generated/PayloadsFind.java
+ com.graphql.example.generated.PayloadsFind
+ com.graphql.example.generated.PayloadsFind$Builder
+com/graphql/example/generated/RocketsResult.java
+ com.graphql.example.generated.RocketsResult
+ com.graphql.example.generated.RocketsResult$Builder
+com/graphql/example/generated/Users_insert_input.java
+ com.graphql.example.generated.Users_insert_input
+ com.graphql.example.generated.Users_insert_input$Builder
+com/graphql/example/generated/RocketEngines.java
+ com.graphql.example.generated.RocketEngines
+ com.graphql.example.generated.RocketEngines$Builder
+com/graphql/example/generated/Users_min_order_by.java
+ com.graphql.example.generated.Users_min_order_by
+ com.graphql.example.generated.Users_min_order_by$Builder
+com/graphql/example/generated/RocketSecondStage.java
+ com.graphql.example.generated.RocketSecondStage
+ com.graphql.example.generated.RocketSecondStage$Builder
+com/graphql/example/generated/QueryResolver.java
+ com.graphql.example.generated.QueryResolver
+com/graphql/example/generated/DragonHeatShield.java
+ com.graphql.example.generated.DragonHeatShield
+ com.graphql.example.generated.DragonHeatShield$Builder
+com/graphql/example/generated/ShipsResultQueryResolver.java
+ com.graphql.example.generated.ShipsResultQueryResolver
+com/graphql/example/generated/Users.java
+ com.graphql.example.generated.Users
+ com.graphql.example.generated.Users$Builder
+com/graphql/example/generated/Address.java
+ com.graphql.example.generated.Address
+ com.graphql.example.generated.Address$Builder
+com/graphql/example/generated/Delete_usersMutationResolver.java
+ com.graphql.example.generated.Delete_usersMutationResolver
+com/graphql/example/generated/LaunchRocketSecondStage.java
+ com.graphql.example.generated.LaunchRocketSecondStage
+ com.graphql.example.generated.LaunchRocketSecondStage$Builder
+com/graphql/example/generated/MissionResult.java
+ com.graphql.example.generated.MissionResult
+ com.graphql.example.generated.MissionResult$Builder
+com/graphql/example/generated/CoreMission.java
+ com.graphql.example.generated.CoreMission
+ com.graphql.example.generated.CoreMission$Builder
+com/graphql/example/pojo/GraphQLResponse.java
+ com.graphql.example.pojo.GraphQLResponse
+com/graphql/example/DemoStep.java
+ com.graphql.example.DemoStep
+ com.graphql.example.TestData
+com/graphql/example/generated/RocketsQueryResolver.java
+ com.graphql.example.generated.RocketsQueryResolver
+com/graphql/example/generated/CoreQueryResolver.java
+ com.graphql.example.generated.CoreQueryResolver
+com/graphql/example/generated/RocketPayloadWeight.java
+ com.graphql.example.generated.RocketPayloadWeight
+ com.graphql.example.generated.RocketPayloadWeight$Builder
+com/graphql/example/Condition.java
+ com.graphql.example.Condition
+com/graphql/example/generated/ShipLocation.java
+ com.graphql.example.generated.ShipLocation
+ com.graphql.example.generated.ShipLocation$Builder
+com/graphql/example/generated/Users_update_column.java
+ com.graphql.example.generated.Users_update_column
+com/graphql/example/generated/LaunchRocketFairings.java
+ com.graphql.example.generated.LaunchRocketFairings
+ com.graphql.example.generated.LaunchRocketFairings$Builder
+com/graphql/example/generated/LaunchesQueryResolver.java
+ com.graphql.example.generated.LaunchesQueryResolver
+com/graphql/example/generated/Core.java
+ com.graphql.example.generated.Core
+ com.graphql.example.generated.Core$Builder
+com/graphql/example/generated/LaunchFind.java
+ com.graphql.example.generated.LaunchFind
+ com.graphql.example.generated.LaunchFind$Builder
+com/graphql/example/generated/SubscriptionResolver.java
+ com.graphql.example.generated.SubscriptionResolver
+com/graphql/example/GraphQLQuery.java
+ com.graphql.example.GraphQLQuery
+com/graphql/example/generated/LandpadsQueryResolver.java
+ com.graphql.example.generated.LandpadsQueryResolver
+com/graphql/example/generated/Users_set_input.java
+ com.graphql.example.generated.Users_set_input
+ com.graphql.example.generated.Users_set_input$Builder
+com/graphql/example/generated/Location.java
+ com.graphql.example.generated.Location
+ com.graphql.example.generated.Location$Builder
+com/graphql/example/generated/PayloadsQueryResolver.java
+ com.graphql.example.generated.PayloadsQueryResolver
+com/graphql/example/generated/RocketSecondStagePayloads.java
+ com.graphql.example.generated.RocketSecondStagePayloads
+ com.graphql.example.generated.RocketSecondStagePayloads$Builder
+com/graphql/example/generated/LandpadQueryResolver.java
+ com.graphql.example.generated.LandpadQueryResolver
+com/graphql/example/generated/Info.java
+ com.graphql.example.generated.Info
+ com.graphql.example.generated.Info$Builder
+com/graphql/example/generated/RocketQueryResolver.java
+ com.graphql.example.generated.RocketQueryResolver
+com/graphql/example/generated/CapsuleQueryResolver.java
+ com.graphql.example.generated.CapsuleQueryResolver
+com/graphql/example/generated/Users_min_fields.java
+ com.graphql.example.generated.Users_min_fields
+ com.graphql.example.generated.Users_min_fields$Builder
+com/graphql/example/generated/LaunchesPastQueryResolver.java
+ com.graphql.example.generated.LaunchesPastQueryResolver
+com/graphql/example/generated/HistoriesQueryResolver.java
+ com.graphql.example.generated.HistoriesQueryResolver
+com/graphql/example/generated/RoadsterQueryResolver.java
+ com.graphql.example.generated.RoadsterQueryResolver
+com/graphql/example/generated/MissionsQueryResolver.java
+ com.graphql.example.generated.MissionsQueryResolver
+com/graphql/example/generated/RocketsResultQueryResolver.java
+ com.graphql.example.generated.RocketsResultQueryResolver
+com/graphql/example/generated/DragonTrunkCargo.java
+ com.graphql.example.generated.DragonTrunkCargo
+ com.graphql.example.generated.DragonTrunkCargo$Builder
+com/graphql/example/generated/ShipsQueryResolver.java
+ com.graphql.example.generated.ShipsQueryResolver
+com/graphql/example/generated/LaunchpadsQueryResolver.java
+ com.graphql.example.generated.LaunchpadsQueryResolver
+com/graphql/example/generated/MissionQueryResolver.java
+ com.graphql.example.generated.MissionQueryResolver
+com/graphql/example/generated/CapsulesPastQueryResolver.java
+ com.graphql.example.generated.CapsulesPastQueryResolver
+com/graphql/example/generated/DragonQueryResolver.java
+ com.graphql.example.generated.DragonQueryResolver
+com/graphql/example/generated/Capsule.java
+ com.graphql.example.generated.Capsule
+ com.graphql.example.generated.Capsule$Builder
+com/graphql/example/generated/ShipsResult.java
+ com.graphql.example.generated.ShipsResult
+ com.graphql.example.generated.ShipsResult$Builder
+com/graphql/example/generated/CoresUpcomingQueryResolver.java
+ com.graphql.example.generated.CoresUpcomingQueryResolver
+com/graphql/example/GraphQLClient.java
+ com.graphql.example.GraphQLClient
+com/graphql/example/generated/Users_aggregate_order_by.java
+ com.graphql.example.generated.Users_aggregate_order_by
+ com.graphql.example.generated.Users_aggregate_order_by$Builder
+com/graphql/example/generated/Ship.java
+ com.graphql.example.generated.Ship
+ com.graphql.example.generated.Ship$Builder
+com/graphql/example/generated/CoresFind.java
+ com.graphql.example.generated.CoresFind
+ com.graphql.example.generated.CoresFind$Builder
+com/graphql/example/generated/UsersQueryResolver.java
+ com.graphql.example.generated.UsersQueryResolver
+com/graphql/example/generated/Link.java
+ com.graphql.example.generated.Link
+ com.graphql.example.generated.Link$Builder
+com/graphql/example/generated/Landpad.java
+ com.graphql.example.generated.Landpad
+ com.graphql.example.generated.Landpad$Builder
+com/graphql/example/generated/DragonThrust.java
+ com.graphql.example.generated.DragonThrust
+ com.graphql.example.generated.DragonThrust$Builder
+com/graphql/example/generated/UsersSubscriptionResolver.java
+ com.graphql.example.generated.UsersSubscriptionResolver
+com/graphql/example/generated/LaunchesPastResultQueryResolver.java
+ com.graphql.example.generated.LaunchesPastResultQueryResolver
+com/graphql/example/generated/History.java
+ com.graphql.example.generated.History
+ com.graphql.example.generated.History$Builder
+com/graphql/example/generated/Users_aggregate.java
+ com.graphql.example.generated.Users_aggregate
+ com.graphql.example.generated.Users_aggregate$Builder
+com/graphql/example/generated/HistoriesResult.java
+ com.graphql.example.generated.HistoriesResult
+ com.graphql.example.generated.HistoriesResult$Builder
+com/graphql/example/generated/LaunchNextQueryResolver.java
+ com.graphql.example.generated.LaunchNextQueryResolver
