@@ -42,7 +42,7 @@ public class FirstGraphQLTestClient {
                 of("name",
                         of("_like", "%Mask")));
 
-        List<Object> users = graphQLClient.executeGql("user_by_name.gql", variables).then()
+        List<Object> users = graphQLClient.executeGql("user_by_condition.gql", variables).then()
                 .extract().jsonPath().getList("data.users");
         assertThat(users.size(), equalTo(1));
     }

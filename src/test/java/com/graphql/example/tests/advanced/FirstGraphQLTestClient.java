@@ -65,7 +65,19 @@ public class FirstGraphQLTestClient {
                 of("name",
                         of("_like", "%Mask")));
 
-        List<Users> users = graphQLClient.executeGql("user_by_name.gql", variables)
+        List<Users> users = graphQLClient.executeGql("user_by_condition.gql", variables)
+                .then()
+                .asList(Users.class);
+        assertThat(users.size(), equalTo(1));
+    }
+
+    @Test
+    void testCanGetUseById() {
+        Map<?, ?> variables = of("where",
+                of("id",
+                        of("_eq", "daa72c51-fd37-4aa5-924c-e3e357e4c1f4")));
+
+        List<Users> users = graphQLClient.executeGql("user_by_condition.gql", variables)
                 .then()
                 .asList(Users.class);
         assertThat(users.size(), equalTo(1));
