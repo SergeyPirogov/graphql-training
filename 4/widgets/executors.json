@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://SergeyPirogov.github.io/graphql-training",
+  "buildOrder" : 4,
+  "buildName" : "GitHub Actions Run #1123009745",
+  "buildUrl" : "https://github.com/SergeyPirogov/graphql-training/actions/runs/1123009745",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4/"
+} ]

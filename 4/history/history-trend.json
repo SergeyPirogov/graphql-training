@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 12
+  }
+} ]

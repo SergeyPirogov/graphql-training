@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "1c5803e070f7580e15ba98a053e25a80",
+    "name" : "com.graphql.example.tests.advanced.FirstGraphQLTestClient",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e93583ff5f4b194bcd96701e720b96d7",
+    "name" : "com.graphql.example.tests.clean.FirstGraphQLTestClient",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "a89b13f51a2fbf13d3d8b94a3f7393b4",
+    "name" : "com.graphql.example.tests.client.FirstGraphQLTestClient",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c360c36ff9ffb3d0e0130dbcd794581e",
+    "name" : "com.graphql.example.tests.simple.FirstGraphQLTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

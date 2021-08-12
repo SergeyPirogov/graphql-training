@@ -1,0 +1,57 @@
+{
+  "uid" : "c55059f7c5b7da95",
+  "name" : "testCanGetUsersList()",
+  "fullName" : "com.graphql.example.tests.clean.FirstGraphQLTestClient.testCanGetUsersList",
+  "historyId" : "6953b45174692813a6ebd0e5d2e0d756",
+  "time" : {
+    "start" : 1628753316081,
+    "stop" : 1628753316180,
+    "duration" : 99
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az208-313"
+  }, {
+    "name" : "thread",
+    "value" : "2965@fv-az208-313.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.graphql.example.tests.clean.FirstGraphQLTestClient"
+  }, {
+    "name" : "testClass",
+    "value" : "com.graphql.example.tests.clean.FirstGraphQLTestClient"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCanGetUsersList"
+  }, {
+    "name" : "suite",
+    "value" : "com.graphql.example.tests.clean.FirstGraphQLTestClient"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c55059f7c5b7da95.json",
+  "parameterValues" : [ ]
+}

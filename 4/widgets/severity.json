@@ -1,0 +1,121 @@
+[ {
+  "uid" : "82d8a04bc3fde31f",
+  "name" : "testCanGetCeoWithClient()",
+  "time" : {
+    "start" : 1628753316305,
+    "stop" : 1628753316409,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae7bd5b320bcbf59",
+  "name" : "testCanGetUseById()",
+  "time" : {
+    "start" : 1628753315670,
+    "stop" : 1628753315788,
+    "duration" : 118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c55059f7c5b7da95",
+  "name" : "testCanGetUsersList()",
+  "time" : {
+    "start" : 1628753316081,
+    "stop" : 1628753316180,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d832afa4f8402e",
+  "name" : "testCanGetUseByName()",
+  "time" : {
+    "start" : 1628753315978,
+    "stop" : 1628753316077,
+    "duration" : 99
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "55a953694be2858a",
+  "name" : "testCanGetCeoWithQueryGql()",
+  "time" : {
+    "start" : 1628753316187,
+    "stop" : 1628753316290,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "900ab0ab7bf92eb8",
+  "name" : "testCanGetCeo()",
+  "time" : {
+    "start" : 1628753316537,
+    "stop" : 1628753316661,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e6d23a5870fdfb2",
+  "name" : "testCanGetCeoWithQuery()",
+  "time" : {
+    "start" : 1628753316418,
+    "stop" : 1628753316526,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d697eb0f3b2fa53",
+  "name" : "testCanGetCeoWithQuery()",
+  "time" : {
+    "start" : 1628753315822,
+    "stop" : 1628753315974,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4044690bc0c0e169",
+  "name" : "testCanGetUsersList()",
+  "time" : {
+    "start" : 1628753315290,
+    "stop" : 1628753315503,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "767706ab11b82e90",
+  "name" : "testCanGetCeoWithQuery()",
+  "time" : {
+    "start" : 1628753312676,
+    "stop" : 1628753315076,
+    "duration" : 2400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdd322d598d889ab",
+  "name" : "testCanGetCeoWithQueryGql()",
+  "time" : {
+    "start" : 1628753315511,
+    "stop" : 1628753315661,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "924d15f0969bafc4",
+  "name" : "testCanGetUseByName()",
+  "time" : {
+    "start" : 1628753315117,
+    "stop" : 1628753315272,
+    "duration" : 155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

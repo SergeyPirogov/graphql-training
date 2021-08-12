@@ -1,0 +1,245 @@
+{
+  "574ea86ce6fce25da73dd68ad46a7175" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "924d15f0969bafc4",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/924d15f0969bafc4",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <1>\n     but: was <0>",
+      "time" : {
+        "start" : 1628753315117,
+        "stop" : 1628753315272,
+        "duration" : 155
+      }
+    } ]
+  },
+  "ebc0de1ba0fcdae3ad1e2be29ccc61ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d697eb0f3b2fa53",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/8d697eb0f3b2fa53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753315822,
+        "stop" : 1628753315974,
+        "duration" : 152
+      }
+    } ]
+  },
+  "6953b45174692813a6ebd0e5d2e0d756" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c55059f7c5b7da95",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/c55059f7c5b7da95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753316081,
+        "stop" : 1628753316180,
+        "duration" : 99
+      }
+    } ]
+  },
+  "126e106f286c8ad38d33df4a36e2e3cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82d8a04bc3fde31f",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/82d8a04bc3fde31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753316305,
+        "stop" : 1628753316409,
+        "duration" : 104
+      }
+    } ]
+  },
+  "b263b2ccfec9e2766447f1bacba02766" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdd322d598d889ab",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/cdd322d598d889ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753315511,
+        "stop" : 1628753315661,
+        "duration" : 150
+      }
+    } ]
+  },
+  "6a82b96e8bb6f0d8dc0d847d932ee5af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e6d23a5870fdfb2",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/6e6d23a5870fdfb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753316418,
+        "stop" : 1628753316526,
+        "duration" : 108
+      }
+    } ]
+  },
+  "2a9c013dc07c88b3209b516843c8a5ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "767706ab11b82e90",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/767706ab11b82e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753312676,
+        "stop" : 1628753315076,
+        "duration" : 2400
+      }
+    } ]
+  },
+  "d1c10817016bf66ca8d7b40933c7ec26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4044690bc0c0e169",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/4044690bc0c0e169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753315290,
+        "stop" : 1628753315503,
+        "duration" : 213
+      }
+    } ]
+  },
+  "ff9e9cd6d1f622b8b710a4d34e4d4a7f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7d832afa4f8402e",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/c7d832afa4f8402e",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <1>\n     but: was <0>",
+      "time" : {
+        "start" : 1628753315978,
+        "stop" : 1628753316077,
+        "duration" : 99
+      }
+    } ]
+  },
+  "9d72f1ce118fd4221a7a6db6754719e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "900ab0ab7bf92eb8",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/900ab0ab7bf92eb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753316537,
+        "stop" : 1628753316661,
+        "duration" : 124
+      }
+    } ]
+  },
+  "e03075ee469929e516fda510a91c49d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55a953694be2858a",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/55a953694be2858a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628753316187,
+        "stop" : 1628753316290,
+        "duration" : 103
+      }
+    } ]
+  },
+  "8c9bfdb839bb70830a05bea4320887a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae7bd5b320bcbf59",
+      "reportUrl" : "https://SergeyPirogov.github.io/graphql-training/4//#testresult/ae7bd5b320bcbf59",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: <1>\n     but: was <0>",
+      "time" : {
+        "start" : 1628753315670,
+        "stop" : 1628753315788,
+        "duration" : 118
+      }
+    } ]
+  }
+}
