@@ -59,4 +59,4 @@ allureServer {
     allureServerUrl = 'http://localhost:8080'
 }
 
-//test.finalizedBy(allureServerGenerate)
+test.finalizedBy(allureReport)
