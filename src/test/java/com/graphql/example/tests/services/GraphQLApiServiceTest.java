@@ -4,10 +4,12 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.graphql.example.GraphQLApiService;
 import com.graphql.example.GraphQLClientAdvanced;
+import com.graphql.example.ProjectConfig;
 import com.graphql.example.generated.Users;
 import io.restassured.RestAssured;
 import io.restassured.config.ObjectMapperConfig;
 import io.restassured.config.RestAssuredConfig;
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -20,7 +22,8 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class GraphQLApiServiceTest {
 
-    private final GraphQLApiService api = new GraphQLApiService(new GraphQLClientAdvanced("https://api.spacex.land/graphql/"));
+    private final ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
+    private final GraphQLApiService api = new GraphQLApiService(new GraphQLClientAdvanced(config.apiUrl()));
 
 
     @BeforeAll
