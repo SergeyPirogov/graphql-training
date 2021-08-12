@@ -1,6 +1,7 @@
 package com.graphql.example;
 
 import com.graphql.example.advanced.GraphQLResponse;
+import io.qameta.allure.Step;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -20,12 +21,14 @@ public class GraphQLClientAdvanced {
         this.url = url;
     }
 
+    @Step
     private Response runQuery(GraphQLQuery query) {
         return requestSpecification
                 .body(query)
                 .post(url);
     }
 
+    @Step
     public GraphQLResponse executeGql(String name) {
         var query = readGql(name);
         return new GraphQLResponse(runQuery(query));
