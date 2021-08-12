@@ -14,11 +14,16 @@ node {
         sh "./gradlew test"
     }
 
-    allure([
-             includeProperties: false,
-             jdk: '',
-             properties: [],
-             reportBuildPolicy: 'ALWAYS',
-             results: [[path: 'build/allure-results']]
-    ])
+    post {
+        always {
+            allure([
+                     includeProperties: false,
+                     jdk: '',
+                     properties: [],
+                     reportBuildPolicy: 'ALWAYS',
+                     results: [[path: 'build/allure-results']]
+            ])
+        }
+    }
+
 }
