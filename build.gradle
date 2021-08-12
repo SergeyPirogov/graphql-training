@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id "io.github.kobylynskyi.graphql.codegen" version "5.2.0"
     id'io.qameta.allure' version '2.8.1'
+    id "ru.iopump.qa.allure" version "0.1.2"
 }
 
 group 'org.example'
@@ -34,12 +35,17 @@ graphqlCodegen {
 allure {
     version = "2.13.8"
     autoconfigure = true
-
     aspectjVersion = '1.9.7'
-
     configuration = 'compile'
 
     useJUnit5 {
         version = "2.13.8"
     }
 }
+
+allureServer {
+    relativeResultDir = 'build/allure-results'
+    allureServerUrl = 'http://localhost:8080'
+}
+
+//test.finalizedBy(allureServerGenerate)
