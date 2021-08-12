@@ -22,6 +22,7 @@ jobs:
         uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
       - name: Build with Gradle
         run: chmod +x ./gradlew && ./gradlew test allureReport
+        continue-on-error: true
       - name: Save Allure report
         uses: actions/upload-artifact@v2
         with:
