@@ -25,6 +25,17 @@ dependencies {
 
 test {
     useJUnitPlatform()
+
+    systemProperties System.getProperties()
+    systemProperties System.getenv()
+
+    testLogging {
+        showStandardStreams = true
+        events "PASSED", "FAILED", "SKIPPED"
+        exceptionFormat = "full"
+    }
+
+    test.outputs.upToDateWhen { false }
 }
 
 graphqlCodegen {
