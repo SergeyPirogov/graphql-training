@@ -21,33 +21,9 @@ jobs:
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@e6e38bacfdf1a337459f332974bb2327a31aaf4b
       - name: Build with Gradle
-        run: chmod +x ./gradlew && ./gradlew test
-        continue-on-error: true
-
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
+        run: chmod +x ./gradlew && ./gradlew test allureReport
+      - name: Save Allure report
+        uses: actions/upload-artifact@v2
         with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Allure Report action
-        uses: simple-elf/allure-report-action@master
-        #uses: ./allure-report-action
-        if: always()
-        #id: allure-report
-        with:
-          allure_results: build/allure-results
-          #gh_pages: gh-pages
-          #allure_report: allure-report
-          allure_history: allure-history/allure-history
-          keep_reports: 5
-
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history/allure-history
+          name: allure-report
+          path: ./build/reports/allure-report/
