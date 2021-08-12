@@ -2,8 +2,8 @@ node {
 
     stage("checkout repo") {
         git branch: 'master',
-        credentialsId: '975b8af9-ff8d-47e0-ab38-42f798902f5c',
-        url: 'https://gitlab.com/semen4ik20/java_jan_2019.git'
+        credentialsId: '187607e9-da15-459f-8cda-89667b6ff92c',
+        url: 'https://github.com/SergeyPirogov/graphql-training.git'
     }
 
     stage("build"){
