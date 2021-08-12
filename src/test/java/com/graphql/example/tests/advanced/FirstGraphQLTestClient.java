@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static java.util.Map.of;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.*;
 
 public class FirstGraphQLTestClient {
 
@@ -81,5 +81,19 @@ public class FirstGraphQLTestClient {
                 .then()
                 .asList(Users.class);
         assertThat(users.size(), equalTo(1));
+    }
+
+    @Test
+    void testCanCreateUser() {
+        var params = of("data", of("name", "Sergey"));
+//        {
+//            "data":{
+//                    "name":"Sergey"
+//                }
+//        }
+
+        graphQLClient.executeGql("create_user.gql", params)
+                .then()
+                .body("data.insert_users.returning[0].id", not(is(emptyString())));
     }
 }
